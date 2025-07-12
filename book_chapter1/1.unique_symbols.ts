@@ -1,4 +1,4 @@
-const readline = require("readline");
+import readline from "readline";
 
 // Check without data structures
 function uniqueWithoutDataStructures(str: string): boolean {

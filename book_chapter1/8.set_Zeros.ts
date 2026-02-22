@@ -1,3 +1,8 @@
+/**
+ * Task 8 — Set Matrix Zeroes
+ * Description: If an element in an MxN matrix is 0, set its entire row and column to 0.
+ * Uses two sets to record rows and columns that must be zeroed.
+ */
 function setZeros(matrix: number[][]): void {
   const n = matrix.length;
   if (n === 0 || matrix[0]?.length !== n) {

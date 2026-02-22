@@ -1,3 +1,8 @@
+/**
+ * Task 7 — Rotate Matrix
+ * Description: Rotate an N x N matrix by 90 degrees in place.
+ * Throws if the matrix is not square.
+ */
 function rotateMatrix(matrix: number[][]): void {
     const n = matrix.length;
     if (n === 0 || matrix[0]?.length !== n) {

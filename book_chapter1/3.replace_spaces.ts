@@ -1,3 +1,8 @@
+/**
+ * Task 3 — Replace Spaces
+ * Description: Replace all spaces in a character array with "%20" (URLify), in-place.
+ * Parameters: `strArray` is an array with enough buffer at the end; `trueLength` is the "real" length.
+ */
 function replaceSpaces(strArray: string[], trueLength: number): string[] {
     let spaceCount = 0;
   

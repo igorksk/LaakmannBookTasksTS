@@ -1,3 +1,8 @@
+/**
+ * Task 4 — Palindrome Permutation
+ * Description: Check whether a given string is a permutation of a palindrome.
+ * Ignores spaces and is case-insensitive.
+ */
 import readline from "readline";
 
 function isPalindromePermutation(str: string): boolean {

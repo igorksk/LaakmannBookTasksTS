@@ -1,3 +1,10 @@
+/**
+ * Task 1 — Unique Symbols
+ * Description: Determine whether a string contains all unique characters.
+ * Implementations:
+ *  - `uniqueWithoutDataStructures`: O(n^2) check without additional data structures.
+ *  - `uniqueUsingDictionary`: O(n) check using a dictionary to track seen characters.
+ */
 import readline from "readline";
 
 // Check without data structures

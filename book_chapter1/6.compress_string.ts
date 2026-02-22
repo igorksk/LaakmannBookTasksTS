@@ -1,3 +1,8 @@
+/**
+ * Task 6 — Compress String
+ * Description: Perform basic string compression using counts of repeated characters.
+ * Returns the compressed string only if it's shorter than the original.
+ */
 import readline from "readline";
 
 

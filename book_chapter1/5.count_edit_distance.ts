@@ -1,3 +1,8 @@
+/**
+ * Task 5 — One Edit Distance
+ * Description: Determine whether two strings are one edit apart (insert, remove, or replace).
+ * Approach: Linear scan with two pointers, tracking at most one edit.
+ */
 import readline from "readline";
 
 const rl = readline.createInterface({

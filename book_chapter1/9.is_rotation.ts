@@ -1,3 +1,8 @@
+/**
+ * Task 9 — String Rotation
+ * Description: Check if one string is a rotation of another by verifying
+ * whether `s2` is a substring of `s1 + s1`.
+ */
 import readline from "readline";
 
 function isRotation(s1: string, s2: string): boolean {

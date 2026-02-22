@@ -1,3 +1,8 @@
+/**
+ * Task 2 — Permutation Strings
+ * Description: Determine whether two strings are permutations of each other.
+ * Approach: Count character occurrences in the first string and decrement while scanning the second.
+ */
 import readline from "readline";
 
 const rl = readline.createInterface({
